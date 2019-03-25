@@ -8,6 +8,10 @@ PS2：所有讨论、更新、源码以及部分付费内容尽在【hook老法�
 
 |date|log|
 |:-:|:-|
+|2019-1-16|[Brida操作指南](https://bbs.pediy.com/thread-248977.htm)|
+|2019-1-11|[`4.2 FRIDA脚本系列（二）成长篇：动静态结合逆向WhatsApp`](https://www.anquanke.com/post/id/169315)|
+|2019-1-9|FRIDA脚本系列其他脚本一：[介召几个frida在安卓逆向中使用的脚本以及延时Hook手法](https://bbs.pediy.com/thread-248848.htm)|
+|2019-1-2|在SRC白帽沙龙上的frida分享：[The King Of Hooking Tools.pptx](https://github.com/hookmaster/frida-all-in-one/blob/master/FridaPPT/The%20King%20Of%20Hooking%20Tools.pptx)|
 |2018-12-18|开始写安卓脚本系列[`4.2 FRIDA脚本系列（一）入门篇：在安卓8.1上dump蓝牙接口和实例`](https://www.anquanke.com/post/id/168152)|
 |2018-12-13|增加子目录：frida高级应用：FRIDA检测方法汇总|
 |2018-12-13|Imyang大佬发布[CVE-2017-4901 VMware虚拟机逃逸漏洞分析【Frida Windows实例】](https://bbs.pediy.com/thread-248384.htm)，安排在【frida高级应用：综合攻防】小节|
@@ -49,23 +53,29 @@ PS2：所有讨论、更新、源码以及部分付费内容尽在【hook老法�
 #### 3.5.2 高级能力：互联互通、动态修改
 ### 3.6 JavaScript
 
-## 第4章. frida-scripts
+## 第4章. FRIDA SCRIPT
 ### 4.1 iOS篇
-### 4.2 [Android篇](https://www.anquanke.com/post/id/168152)（安卓8.1）
-#### 4.2.1 frida_android_trace.js. Full-featured Java and Module tracer for Android.
-#### 4.2.2 frida_android_enum.js. Collection of functions to enumerate Java classes and methods.
-#### 4.2.3 Enumerate loaded classes
-#### 4.2.4 Class description
+### 4.2 Android篇（安卓8.1）
+#### 4.2.1 [FRIDA SCRIPT的"hello world"](https://www.anquanke.com/post/id/168152#h2-1)
+#### 4.2.2 [枚举所有的类并定位类](https://www.anquanke.com/post/id/168152#h2-2)
+#### 4.2.3 [枚举类的所有方法并定位方法](https://www.anquanke.com/post/id/168152#h2-4)
+#### 4.2.4 [案例一：综合案例：在安卓8.1上dump蓝牙接口和实例](https://www.anquanke.com/post/id/168152#h2-5)
+#### 4.2.5 [hook方法的所有重载](https://www.anquanke.com/post/id/169315#h2-0)
+#### 4.2.6 [hook类的所有方法](https://www.anquanke.com/post/id/169315#h2-1)
+#### 4.2.7 [hook类的所有子类](https://www.anquanke.com/post/id/169315#h2-2)
+#### 4.2.8 [hook本地库的导出函数](https://www.anquanke.com/post/id/169315#h2-3)
+#### 4.2.9 [案例二：综合案例：动静态结合逆向WhatsApp](https://www.anquanke.com/post/id/169315#h2-4)
 #### 4.2.5 Hook io InputStream
 #### 4.2.6 Android make Toast
 #### 4.2.7 Await for specific module to load
-#### 4.2.8 Print all runtime strings & stacktrace
+#### 4.2.8 [Print stacktrace](https://github.com/hookmaster/frida-all-in-one/tree/master/sample/PrintStacktrace)
 #### 4.2.9 String comparison
 #### 4.2.10 Hook JNI by address
 #### 4.2.11 Hook constructor
 #### 4.2.12 Hook Java reflection
 #### 4.2.13 Trace class
 #### 4.2.14 SSL pinning bypass
+#### 其他脚本一：[介召几个frida在安卓逆向中使用的脚本以及延时Hook手法](https://bbs.pediy.com/thread-248848.htm)
 ...
 ...
 
